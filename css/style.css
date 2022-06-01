@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto' !important;
+}
+
+#avatar{
+    font-size: 40px !important;
+}
+
+
+.nameUser{
+    font-size: 28px !important;
+    font-weight: 700 !important;
+}
+
+.roleUser{
+    font-size: 14px !important;
+    color: gray;
+}
+
+#galleria{
+    margin-top: 100px !important;
+}
+
+#header{
+    position: fixed !important;
+    background-color: white !important;
+    display: flex !important;
+    width: 100% !important;
+    z-index: 10 !important;
+    height: 60px !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+#footer{
+    position: fixed;
+    height: 70px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 999px) {
+    #header{
+        display: none !important;
+        overflow: hidden !important;
+    }
+  }
