@@ -284,7 +284,7 @@ section {
   overflow: hidden;
 }
 
-.buttonPlayMusic {
+#buttonPlayMusic {
   background-color: #050d18 !important;
   color: white !important;
   border-radius: 40px !important;
@@ -294,7 +294,7 @@ section {
   transition: 0.2s;
 }
 
-.buttonPlayMusic:hover {
+#buttonPlayMusic:hover {
   background-color: transparent !important;
   color: white !important;
   border-radius: 40px !important;
