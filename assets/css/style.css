@@ -202,11 +202,15 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
+.imageFoto{
+  margin: 10px !important;
+}
+
 .buttonCV{
   background-color: #050d18 !important;
   color: white !important;
   text-align:center !important ;
-  width: 15% !important;
+  width: 100% !important;
   border: 0 !important;
   border-radius: 40px !important;
   padding: 10px !important;
@@ -216,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent !important;
   color: #050d18 !important;
   text-align:center !important ;
-  width: 15% !important;
+  width: 100% !important;
   border: 2px solid #050d18 !important;
   border-radius: 40px !important;
   padding: 10px !important;
@@ -299,12 +303,12 @@ section {
 }
 
 #buttonPlayMusic {
-  background-color: #050d18 !important;
+  background-color: #0e2442 !important;
   color: white !important;
   border-radius: 40px !important;
   padding: 10px !important;
   border: none !important;
-  width: 60% !important;
+  width: 62% !important;
   transition: 0.2s;
 }
 
@@ -314,7 +318,7 @@ section {
   border-radius: 40px !important;
   padding: 10px !important;
   border: 2px dotted white !important;
-  width: 60% !important;
+  width: 62% !important;
 }
 
 .section-bg {
