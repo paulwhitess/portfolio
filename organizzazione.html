@@ -55,116 +55,443 @@
 
             <nav id="navbar" class="nav-menu navbar">
                 <ul>
-                    <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i>
-                            <span>Home</span></a></li>
+                    <li><a href="file:///C:/Users/pbianchi/Documents/GitHub/portfolio/index.html"
+                            class="nav-link scrollto active"><i class="bi bi-backspace"></i>
+                            <span>Torna indietro</span></a></li>
                 </ul>
             </nav>
         </div>
     </header><!-- Fine Header -->
     <main id="main">
-
+        <br>
         <section id="organizzazioni" class="organizzazioni">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Organizzazioni</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate.</p>
+                    <h2>Organizzazione: <span style="color: rgb(16, 102, 231);">Nixon</span></h2>
+                    <h3>Dipendenti</h3>
                 </div>
 
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title fw-bold fs-3" id="exampleModalLabel">
+                                    Specifica Dipendente</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-12">
+                                        <img src="https://www.centrodown.org/wp-content/uploads/2019/12/avatar_square_blue_512dp.png"
+                                            class="img-thumbnail" alt="...">
+                                    </div>
+
+                                    <div class="col-lg-8 col-sm-12">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <label class="fw-bold">Nome</label>
+                                                <p>Marco</p>
+
+                                                <label class="fw-bold">Codice Fiscale</label>
+                                                <p>gsyub65sbct5</p>
+
+                                            </div>
+                                            <div class="col-lg-6">
+
+                                                <label class="fw-bold">Cognome</label>
+                                                <p>Pollini</p>
+
+                                                <label class="fw-bold">Email</label>
+                                                <p>Marco</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-6">
+
+                                                <label class="fw-bold">Posizione Lavorativa</label>
+                                                <p>Programmatore</p>
+
+                                                <label class="fw-bold">Numero ore mensili</label>
+                                                <p>160</p>
+
+                                            </div>
+                                            <div class="col-lg-6">
+
+                                                <label class="fw-bold">Data Assunzione</label>
+                                                <p>12/04/2007</p>
+
+                                            </div>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                        <h3><a href = "/organizzazione.html">Organizzazione 1</a></h3>
-
                         <table id="" class="display" style="width:100%">
                             <thead>
                                 <tr>
                                     <th>Id</th>
                                     <th>Nome</th>
-                                    <th>Indirizzo</th>
-                                    <th>Contatto</th>
-                                    <th>Numero dipendenti</th>
+                                    <th>Cognome</th>
+                                    <th>Codice Fiscale</th>
+                                    <th>Email</th>
+                                    <th>Posizione lavorativa</th>
+                                    <th>Numero ore mensili</th>
+                                    <th>Data Assunzione</th>
                                     <th>Azioni</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Tiger Nixon</td>
-                                    <td>Via Manzoni</td>
-                                    <td>3329827362</td>
-                                    <td>195</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                          ...
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                          <li><a class="dropdown-item" href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                      </div></td>
+                                    </td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>1</td>
-                                    <td>Tiger Nixon</td>
-                                    <td>Via Manzoni</td>
-                                    <td>3329827362</td>
-                                    <td>195</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                          ...
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                          <li><a class="dropdown-item" href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                      </div></td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
+                                        </button></td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
+                                        </button></td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
+                                        </button></td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
+                                        </button></td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
+                                        </button></td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            gsyub65sbct5
+                                        </button></td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td>gsvctha6ah654avd</td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td>gsvctha6ah654avd</td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td>gsvctha6ah654avd</td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td>gsvctha6ah654avd</td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td>gsvctha6ah654avd</td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Marco</td>
+                                    <td>Pollini</td>
+                                    <td>gsvctha6ah654avd</td>
+                                    <td>pollini@gmail.com</td>
+                                    <td>Programmatore</td>
+                                    <td>160</td>
+                                    <td>12/04/2007</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-outline-success dropdown-toggle" type="button"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                aria-expanded="false">
+                                                <i class="bi bi-three-dots"></i>
+                                            </button>
+                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#"><i class="bi bi-trash"></i>
+                                                        Elimina</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
                                 </tr>
 
                             </tbody>
                         </table>
-                    </div>
-                    <br>
-                    <br>
-                    <hr>
-                    <br>
-                    <br>
-                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                        <h4><a href = "/organizzazione.html">Organizzazione 2</a></h4>
-                        <table id="" class="display" style="width:100%">
-                            <thead>
-                                <tr>
-                                    <th>Id</th>
-                                    <th>Nome</th>
-                                    <th>Indirizzo</th>
-                                    <th>Contatto</th>
-                                    <th>Numero dipendenti</th>
-                                    <th>Azioni</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Tiger Nixon</td>
-                                    <td>Via Manzoni</td>
-                                    <td>3329827362</td>
-                                    <td>195</td>
-                                    <td><div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                          ...
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                          <li><a class="dropdown-item" href="#">Action</a></li>
-                                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                      </div></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
                     </div>
                 </div>
 
