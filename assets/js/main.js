@@ -6,7 +6,6 @@
 */
 (function() {
   "use strict";
-
   /**
    * Easy selector helper function
    */
@@ -113,6 +112,7 @@
       scrollto(this.hash)
     }
   }, true)
+
 
   /**
    * Scroll with ofset on page load with hash links in the url

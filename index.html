@@ -26,7 +26,10 @@
 
     <!-- Stile CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body>
@@ -41,7 +44,7 @@
             <div class="profile">
                 <img src="assets/img/profile-img.png" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light text-center"><a href="index.html">Paolo Bianchi</a></h1>
-                <p class="text-center" style = "color: #555663;">FRONT END DEVELOPER</p>
+                <p class="text-center" style="color: #555663;">FRONT END DEVELOPER</p>
                 <div class="social-links mt-3 text-center">
                     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
@@ -63,9 +66,11 @@
                     <li><a href="#services" class="nav-link scrollto"><i class="bi bi-heart"></i> <span>Cosa mi
                                 piace</span></a></li>
                     <li><a href="#docs" class="nav-link scrollto"><i class="bi bi-file-earmark"></i> <span>Documenti
-                                </span></a></li>
+                            </span></a></li>
                     <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
                             <span>Contatti</span></a></li>
+                    <li><a href="#organizzazioni" class="nav-link scrollto"><i class="bi bi-table"></i>
+                            <span>Organizzazioni</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -384,7 +389,7 @@
             </div>
         </section><!-- End Esperienza Section -->
 
-        
+
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container">
@@ -510,15 +515,18 @@
                     <hr>
                     <div class="row">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-12">
-                            <img class="imageFoto" src="https://mangias.it/wp-content/uploads/2021/08/destinazione_sicilia_banner.jpg"
+                            <img class="imageFoto"
+                                src="https://mangias.it/wp-content/uploads/2021/08/destinazione_sicilia_banner.jpg"
                                 alt="" width="350" height="200" />
                         </div>
                         <div class="col-12 col-lg-4 col-md-4 col-sm-12">
-                            <img class="imageFoto" src="https://www.eurospin-viaggi.it/media/immagini/5841_n_viaggi_sicilia_02.jpg" alt=""
+                            <img class="imageFoto"
+                                src="https://www.eurospin-viaggi.it/media/immagini/5841_n_viaggi_sicilia_02.jpg" alt=""
                                 width="350" height="200" />
                         </div>
                         <div class="col-12 col-lg-4 col-md-4 col-sm-12">
-                            <img class="imageFoto" src="https://st2.depositphotos.com/3006519/7065/i/600/depositphotos_70654891-stock-photo-coastline-taormina-sicily-italy.jpg"
+                            <img class="imageFoto"
+                                src="https://st2.depositphotos.com/3006519/7065/i/600/depositphotos_70654891-stock-photo-coastline-taormina-sicily-italy.jpg"
                                 alt="" width="350" height="200" />
                         </div>
                     </div>
@@ -671,6 +679,115 @@
             </div>
         </section><!-- End Contact Section -->
 
+        <section id="organizzazioni" class="organizzazioni">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Organizzazioni</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint consectetur velit. Quisquam quos quisquam cupiditate.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                        <h3><a href = "/organizzazione.html">Organizzazione 1</a></h3>
+
+                        <table id="" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nome</th>
+                                    <th>Indirizzo</th>
+                                    <th>Contatto</th>
+                                    <th>Numero dipendenti</th>
+                                    <th>Azioni</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tiger Nixon</td>
+                                    <td>Via Manzoni</td>
+                                    <td>3329827362</td>
+                                    <td>195</td>
+                                    <td><div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                          ...
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                      </div></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tiger Nixon</td>
+                                    <td>Via Manzoni</td>
+                                    <td>3329827362</td>
+                                    <td>195</td>
+                                    <td><div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                          ...
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                      </div></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
+                    <br>
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                        <h4><a href = "file:///C:/Users/pbianchi/Documents/GitHub/portfolio/organizzazione.html">Organizzazione 2</a></h4>
+                        <table id="" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nome</th>
+                                    <th>Indirizzo</th>
+                                    <th>Contatto</th>
+                                    <th>Numero dipendenti</th>
+                                    <th>Azioni</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Tiger Nixon</td>
+                                    <td>Via Manzoni</td>
+                                    <td>3329827362</td>
+                                    <td>195</td>
+                                    <td><div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                          ...
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                      </div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section><!-- End Cosa mi piace Section -->
+
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -699,7 +816,10 @@
     <script src="assets/vendor/typed.js/typed.min.js"></script>
     <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-
+    <script>$(document).ready(function () {
+            $('table.display').DataTable();
+        });
+    </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
