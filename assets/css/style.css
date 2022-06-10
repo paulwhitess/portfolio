@@ -71,10 +71,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 10px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #2c2f3f;  
+
 }
 
 #header .profile h1 {
@@ -140,6 +141,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   list-style: none;
 }
+.nav-link{
+  line-height: 0.4 !important;
+}
 
 .nav-menu>ul>li {
   position: relative;
@@ -150,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 12px 15px;
+  padding: 10px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -646,7 +650,7 @@ section {
 }
 
 .img-fluid {
-  width: 65% !important;
+  width: 38% !important;
 }
 
 .portfolio-details .portfolio-details-slider img {
