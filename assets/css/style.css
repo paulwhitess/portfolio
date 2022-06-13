@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;  
+  border: 8px solid #2c2f3f;
+  margin-top: 25px !important;
 
 }
 
@@ -141,7 +142,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   list-style: none;
 }
-.nav-link{
+
+.nav-link {
   line-height: 0.4 !important;
 }
 
@@ -970,6 +972,11 @@ section {
 .breadcrumbs h2 {
   font-size: 26px;
   font-weight: 300;
+}
+
+#buttonModal{
+  background-color: transparent !important;
+  border: none !important;
 }
 
 .breadcrumbs ol {

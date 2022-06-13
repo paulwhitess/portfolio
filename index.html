@@ -24,6 +24,9 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
+    <!-- Vue JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
     <!-- Stile CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
@@ -88,6 +91,13 @@
             </p>
             <a id="buttonPlayMusic" href="#services" onclick="play()"><i class="bi bi-play-fill"></i>
                 Ascolta la mia canzone preferita</a>
+            <!-- VUE JS 
+            <div id="app_onclick" class="experiment-block">
+                <span>{{ message }}</span>
+                <button v-on:click="randomGenerate">Click me</button>
+            </div>
+            -->
+
         </div>
     </section><!-- End Hero -->
 
@@ -681,7 +691,6 @@
 
         <section id="organizzazioni" class="organizzazioni">
             <div class="container">
-
                 <div class="section-title">
                     <h2>Organizzazioni</h2>
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
@@ -816,6 +825,21 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
+    <!-- Script VUE JS 
+    <script>
+        new Vue({
+            el: "#app_onclick",
+            data: {
+                message: "Click me (random number generate)",
+            },
+            methods: {
+                randomGenerate() {
+                    this.message = Math.random()
+                },
+            },
+        })
+    </script>
+    -->
 </body>
 
 </html>
