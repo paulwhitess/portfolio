@@ -975,8 +975,9 @@ section {
 }
 
 #buttonModal{
-  background-color: transparent !important;
+  background-color: rgb(223, 230, 233) !important;
   border: none !important;
+  color: rgb(50, 50, 194);
 }
 
 .breadcrumbs ol {
